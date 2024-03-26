@@ -42,6 +42,7 @@ power_num = pow(pi,3)
 squire_num = math.sqrt(420)
 max_num = max(1,2,3,4)
 min_num = min(1,2,3,4)
+fifty_to_hundred_evens = range(50,100+1,2) # range(start,end,step)
 
 
 print(website_name)

@@ -13,6 +13,6 @@ if height>=160 and height<= 190:
     print("congrates! you won the genetic lotery! ")
 elif height<160 or height>190:
     print('damn! not lucky i guess') 
-
+ 
 
 # 1:04:00
