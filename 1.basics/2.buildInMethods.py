@@ -8,6 +8,7 @@ digit_name = "235689"
 length = len(name)
 find_index = name.find("a")
 cap = name.capitalize()
+is_uppercase = name.isupper()
 uppercase =name.upper()
 lowercase = name.lower()
 is_digit = digit_name.isdigit() # True
@@ -46,3 +47,11 @@ fifty_to_hundred_evens = range(50,100+1,2) # range(start,end,step)
 
 
 print(website_name)
+
+
+
+# --------------------GENERAL---------------------
+# index optator: gives access to a sequence's of element (str, list, tuples)
+
+full_Name = "jasmine hunt"
+indexing_first_name = full_Name[:6]

@@ -17,5 +17,3 @@ dessert = ["cake","pudding"]
 all_food = [drinks, dinner, dessert] 
 
 print(all_food[0][0])
-
-# 1:30:00
