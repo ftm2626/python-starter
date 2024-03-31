@@ -29,12 +29,22 @@ website = "http://google.com"
 website_name_index = slice(7,-4) #second params is nagative index that counts from right
 website_name = website[website_name_index]
 
+# str.format()
 
+animal="cow"
+item="moon"
+formated_str1="the {} jumped over the {}".format(animal,item)
+formated_str2="the {1} jumped over the {0}".format(animal,item)
+formated_str3="the {animal} jumped over the {item}".format(animal=animal,item=item)
+formated_str4="the {:10} jumped over the ".format(animal) # adds space
+
+# print(formated_str4)
 
 
 # ------------------------NUMBERS-------------------
 # import math;
-pi = 3.14
+pi = 3.14159
+million = 1000000
 round_num = round(pi)
 ceil_num = math.ceil(pi)
 floor_num = math.floor(pi)
@@ -44,9 +54,10 @@ squire_num = math.sqrt(420)
 max_num = max(1,2,3,4)
 min_num = min(1,2,3,4)
 fifty_to_hundred_evens = range(50,100+1,2) # range(start,end,step)
-
-
-print(website_name)
+format_2_digits = "number is {:.2f}".format(pi) # 3.14
+comma ="number is {:,}".format(million) #1,000,000
+ 
+print(comma)
 
 
 
