@@ -29,6 +29,3 @@ def func3(**kwargs):
     print("hello" + kwargs["first"] + kwargs["last"])
 
 func3(last="hunt",first="jasmine")
-
-
-# 02:33:00
