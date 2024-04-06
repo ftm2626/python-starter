@@ -30,6 +30,3 @@ fish = Fish()
 fish.eat()
 fish.flee()
 fish.hunt()
-
-
-# 04:01:50
