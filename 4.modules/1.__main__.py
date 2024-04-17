@@ -7,5 +7,3 @@
 
 # python interpreter sets "special variables", one of thich is __name__
 # pyghon willl assign the __name__ variables a value of "__main__" if it's the initial module being run
-
-# 5:29:00
