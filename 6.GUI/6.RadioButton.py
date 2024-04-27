@@ -13,4 +13,3 @@ for i in range(len(food)):
 
 window.mainloop()
 
-# 7:00:45
