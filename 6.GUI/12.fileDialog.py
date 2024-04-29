@@ -40,5 +40,3 @@ buttonSave.pack()
 
 window.mainloop()
 
-
-# 08:05:15
