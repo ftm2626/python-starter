@@ -18,3 +18,5 @@ Label(tab2,text="tab number2").pack()
 
 
 window.mainloop()
+
+# 8:30:00
